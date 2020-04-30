@@ -6,6 +6,7 @@ const Home = () => {
         <div>
             <text>Home in react project</text>
             <Button variant="primary">Primary</Button>{' '}
+            <text>Dammit we made it</text>
         </div>
     )
 }

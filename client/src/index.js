@@ -1,10 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
-import Home from './Pages/Home'
+import App from './Pages/App'
+import axios from 'axios'
+
+window.axios = axios;
+
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+      <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
