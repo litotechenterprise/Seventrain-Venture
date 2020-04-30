@@ -2,9 +2,6 @@ var express = require('express');
 var app = express();
 const PORT = process.env.PORT || 8080;
 
-app.get('/', function(req,res) {
-    
-});
 
 if(process.env.NODE_ENV == 'production') {
     app.use(express.static('client/build'))
