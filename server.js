@@ -3,7 +3,7 @@ var app = express();
 const PORT = process.env.PORT || 8080;
 
 app.get('/', function(req,res) {
-    res.status(200).send('Bitch Ass');
+    
 });
 
 if(process.env.NODE_ENV == 'production') {
