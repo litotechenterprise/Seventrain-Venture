@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import App from './Pages/App'
 import axios from 'axios'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 window.axios = axios;
 
