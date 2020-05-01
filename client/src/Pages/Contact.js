@@ -17,7 +17,7 @@ const Contact = () => {
                                     <Card.Link>
                                         <a href="mailto:v@Seventrainventure.com">v@Seventrainventure.com</a>
                                     </Card.Link>
-                                    <Card.Text>(609) 937-8854</Card.Text>
+                                    <Card.Title>(609) 937-8854</Card.Title>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -27,10 +27,8 @@ const Contact = () => {
                                 <Card.Body>
                                     <Card.Title>Xavi Flores</Card.Title>
                                     <Card.Subtitle>General Partner</Card.Subtitle>
-                                    <Card.Link>
-                                        <a href="mailto:xavi@Seventrainventure.com">xavi@Seventrainventure.com</a> 
-                                    </Card.Link>
-                                    <Card.Text>(305) 937-8854</Card.Text>
+                                    <Card.Link><a href="mailto:xavi@Seventrainventure.com">xavi@Seventrainventure.com</a></Card.Link>
+                                    <Card.Title>(305) 937-8854</Card.Title>
                                 </Card.Body>
                             </Card>
                         </Col>

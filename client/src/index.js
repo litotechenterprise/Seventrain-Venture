@@ -16,8 +16,8 @@ window.axios = axios;
 
 ReactDOM.render(
   <React.StrictMode>
-       <Navbar bg="dark" variant="dark">
-          <Navbar.Brand href="#home">
+       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+          <Navbar.Brand href="/">
             <img
               alt=""
               src={logo}
@@ -27,28 +27,31 @@ ReactDOM.render(
             />{'          '}
             SevenTrain Venture
           </Navbar.Brand>
-          <Nav className="justify-content-end">
-            <Nav.Item>
-              <Nav.Link href="#About">About</Nav.Link>
-            </Nav.Item>
+          <Navbar.Toggle />
+          <Navbar.Collapse>
+            <Nav className="justify-content-end" style={{ width: "90%" }}>
+              <Nav.Item>
+                <Nav.Link href="#About">About</Nav.Link>
+              </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link href="#Method">Method</Nav.Link>
-            </Nav.Item>
+              <Nav.Item>
+                <Nav.Link href="#Method">Method</Nav.Link>
+              </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link href="#Team">Team</Nav.Link>
-            </Nav.Item>
+              <Nav.Item>
+                <Nav.Link href="#Team">Team</Nav.Link>
+              </Nav.Item>
 
 
-            <Nav.Item>
-              <Nav.Link href="#Terms">Terms</Nav.Link>
-            </Nav.Item>
+              <Nav.Item>
+                <Nav.Link href="#Terms">Terms</Nav.Link>
+              </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link href="#Contact">Contact Us</Nav.Link>
-            </Nav.Item>
-          </Nav>
+              <Nav.Item>
+                <Nav.Link href="#Contact">Contact Us</Nav.Link>
+              </Nav.Item>
+            </Nav>
+          </Navbar.Collapse>
         </Navbar>
 
         <Carousel id='Carousel'>
