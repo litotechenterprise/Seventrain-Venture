@@ -4,11 +4,69 @@ import * as serviceWorker from './serviceWorker';
 import App from './Pages/App'
 import axios from 'axios'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import logo from './images/7VenturePics/Logo.png'
+import {Navbar, Carousel} from 'react-bootstrap'
+import Photo1 from './images/Carousel_images/Photo1.jpg'
+import Photo2 from './images/Carousel_images/Photo2.jpg'
+import Photo3 from './images/Carousel_images/Photo3.jpg'
+
 window.axios = axios;
 
 ReactDOM.render(
   <React.StrictMode>
-      <App />
+       <Navbar bg="dark" variant="dark">
+          <Navbar.Brand href="#home">
+            <img
+              alt=""
+              src={logo}
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+            />{'      '}
+            SevenTrain Venture
+          </Navbar.Brand>
+        </Navbar>
+
+        <Carousel id='Carousel'>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src={Photo1}
+                    alt="First slide"
+                    />
+                    <Carousel.Caption>
+                        <h3>First slide label</h3>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                 
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src={Photo2}
+                    alt="First slide"
+                    />
+                    <Carousel.Caption>
+                        <h3>First slide label</h3>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>  
+
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src={Photo3}
+                    alt="First slide"
+                    />
+                    <Carousel.Caption>
+                        <h3>First slide label</h3>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item> 
+            </Carousel> 
+            <div style={{flex:1, backgroundColor:'#5190bd'}}>
+              <App />
+            </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
