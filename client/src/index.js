@@ -5,7 +5,7 @@ import App from './Pages/App'
 import axios from 'axios'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './images/7VenturePics/Logo.png'
-import {Navbar, Carousel} from 'react-bootstrap'
+import {Navbar, Carousel, Nav} from 'react-bootstrap'
 import Photo1 from './images/Carousel_images/Photo1.jpg'
 import Photo2 from './images/Carousel_images/Photo2.jpg'
 import Photo3 from './images/Carousel_images/Photo3.jpg'
@@ -24,9 +24,31 @@ ReactDOM.render(
               width="30"
               height="30"
               className="d-inline-block align-top"
-            />{'      '}
+            />{'          '}
             SevenTrain Venture
           </Navbar.Brand>
+          <Nav className="justify-content-end">
+            <Nav.Item>
+              <Nav.Link href="#targetname">About</Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link href="#Method">Method</Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link href="#Team">Team</Nav.Link>
+            </Nav.Item>
+
+
+            <Nav.Item>
+              <Nav.Link href="#Terms">Terms</Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link href="#Contact">Contact Us</Nav.Link>
+            </Nav.Item>
+          </Nav>
         </Navbar>
 
         <Carousel id='Carousel'>

@@ -5,12 +5,16 @@ import offer from '../images/7VenturePics/offer.png'
 
 const AboutUs = () => {
     return(
-        <div style={{padding:"3%"}}>
-            <h2><u>About Us: Seventrain Ventures, the next generation venture model</u></h2>
-            <text>A modern approach to venture captial investing</text>
-            <Container style={{backgroundColor:'white', padding:40, borderRadius:100}}>
-                <Image src={offer} fluid  />
-            </Container>
+        <div>
+            <a name="About"></a>
+            <div style={{padding:"3%"}}>
+                <h1>About Us</h1>
+                <h2>Seventrain Ventures, the next generation venture model</h2>
+                <h4>A modern approach to venture captial investing</h4>
+                <Container style={{backgroundColor:'white', padding:40, borderRadius:100}}>
+                    <Image src={offer} fluid  />
+                </Container>
+            </div>
         </div>
   
     )

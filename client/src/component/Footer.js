@@ -5,7 +5,7 @@ import LOGO from '../images/7VenturePics/Logo.png'
 
 const Footer = () => {
     return(
-        <div className="Footing" style={{backgroundColor:'#484c5e'}}>
+        <div className="Footing" style={{backgroundColor:'#333a40'}}>
             <Container style={{borderBottomColor:'white', borderBottomWidth:3}}>
                 <Row style={{alignItems:'center', justifyContent:'center'}}>
                     <Image
@@ -28,7 +28,7 @@ const Footer = () => {
                     </Col>
 
                     <Col>
-                        <p>200 Park Ave South. New York, NY 10003</p>
+                        <p className="right">200 Park Ave South. New York, NY 10003</p>
                     </Col>
                 </Row>
             </Container>

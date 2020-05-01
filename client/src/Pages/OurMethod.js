@@ -6,8 +6,9 @@ import Stage from '../images/7VenturePics/stage_investment.png'
 const OurMethod = () => {
     return(
         <div style={{padding:"3%"}}>
-            <h2><u>Our Method: </u></h2>
-            <text>A modern approach to venture captial investing</text>
+            <a name="Method"></a>
+            <h1><u>Our Method: </u></h1>
+            <h4>A modern approach to venture captial investing</h4>
             <Container style={{backgroundColor:'white', padding:100, borderRadius:100}}>
                 <Image src={Stage} fluid  />
              </Container>

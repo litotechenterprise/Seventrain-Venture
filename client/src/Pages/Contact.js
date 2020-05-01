@@ -5,6 +5,7 @@ import { Container, Row, Col, Card} from 'react-bootstrap';
 const Contact = () => {
     return(
         <div style={{padding:"3%"}}>
+            <a name="Contact"></a>
             <Container>
                 <h1><u>Contact us</u></h1>
                     <Row>
