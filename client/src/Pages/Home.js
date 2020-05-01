@@ -12,8 +12,7 @@ import { Container} from 'react-bootstrap'
 
 const Home = () => {
     return (
-        <div style={{backgroundColor:'#556f8a'}}>
-        <Container style={{flex:1, backgroundColor:'lightgray'}}>
+        <Container style={{flex:1}}>
           <AboutUS />
           <OurMethod />
           <Team />
@@ -22,7 +21,6 @@ const Home = () => {
           <Geo />
           <Contact />
         </Container>
-      </div>
     )
 }
 

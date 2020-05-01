@@ -9,7 +9,7 @@ import Serge from '../images/7VenturePics/Serge.png'
 
 const Team = () => {
     return(
-        <div>       
+        <div style={{padding:"5%"}}>       
             <h1>Team</h1>
             <h2><u>An effective combination of venture investing exprtise and knowledge</u></h2>
             <div style={{backgroundColor:'white', padding:100, borderRadius:100}}>

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,800;1,400;1,500&family=Orbitron&display=swap');
+
+h2{
+font-family: 'Orbitron', sans-serif;
+}
+text {
+    font-family: 'Exo', sans-serif;
+}
+div .App-Container {
+    background: url('../images/backgrounds/africa.jpg');
+}
+div .Footing {
+    padding: 1%;
+    border: 2px;
+    border-color: aliceblue;
+    border-width: 10px;
+    /* text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%; */
+}
+
+hr{
+    border: 1px solid black;
+}

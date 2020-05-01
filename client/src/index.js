@@ -9,6 +9,8 @@ import {Navbar, Carousel} from 'react-bootstrap'
 import Photo1 from './images/Carousel_images/Photo1.jpg'
 import Photo2 from './images/Carousel_images/Photo2.jpg'
 import Photo3 from './images/Carousel_images/Photo3.jpg'
+import Footer from './component/Footer'
+import './css/index.css'
 
 window.axios = axios;
 
@@ -63,10 +65,12 @@ ReactDOM.render(
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Caption>
                 </Carousel.Item> 
-            </Carousel> 
-            <div style={{flex:1, backgroundColor:'#5190bd'}}>
+            </Carousel>
+           
+            <div style={{flex:1}}>
               <App />
             </div>
+            <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
