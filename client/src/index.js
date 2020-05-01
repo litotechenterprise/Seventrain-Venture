@@ -48,7 +48,7 @@ ReactDOM.render(
               </Nav.Item>
 
               <Nav.Item>
-                <Nav.Link href="#Contact">Contact Us</Nav.Link>
+                <Nav.Link href="#Contact">Contact</Nav.Link>
               </Nav.Item>
             </Nav>
           </Navbar.Collapse>

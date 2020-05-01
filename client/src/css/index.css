@@ -1,13 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,800;1,400;1,500&family=Orbitron&display=swap');
 
-h2{
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    color:white;
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    color:white; 
+}
+
+h4{
 font-family: 'Orbitron', sans-serif;
 color:white;
 }
+
+
+
 text {
     font-family: 'Exo', sans-serif;
-    color: white;
 }
 div .App-Container {
     background: url('../images/backgrounds/africa.jpg');

@@ -11,21 +11,21 @@ const Team = () => {
     return(
         <div style={{padding:"3%"}}>
             <a name="Team"></a>       
-            <h1>Team</h1>
-            <h2><u>An effective combination of venture investing exprtise and knowledge</u></h2>
+            <h1><u>Team</u></h1>
+            <h2>An effective combination of venture investing exprtise and knowledge</h2>
             <div style={{backgroundColor:'white', padding:40, borderRadius:100}}>
                 <Container>
                     
                 </Container>
                 <Container>
                     
-                    <h4>SevenTrain Venture organisational chart</h4>
+                    <h4>SevenTrain Venture Management Stucture</h4>
                     <Image src={Org_Struct} fluid  />
                 </Container>
             
                 <Container>
                     <h2><u>Strong management team with soild experise in venture captial</u></h2>
-                    <h4>SevenTrain gobal team is able to leverage its goabl manament into venture captial investing</h4>
+                    <h4>SevenTrain gobal team is able to leverage its global management into venture captial investing</h4>
                     <Row>
                         <Col><Image src={Vikal} fluid /></Col>
                         <Col><Image src={Xavi} fluid /></Col>
