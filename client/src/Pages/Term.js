@@ -5,10 +5,10 @@ import Fund from '../images/7VenturePics/Fund.png'
 
 const Terms = () => {
     return(
-        <div>
+        <div style={{padding:"3%"}}>
             <h2><u>SevenVentire terms of inventments </u></h2>
             <text>Summary of terms</text>
-            <Container style={{backgroundColor:'white', padding:100, borderRadius:100}}>
+            <Container style={{backgroundColor:'white', alignItems:'center',justifyContent:'center', padding:50, borderRadius:100}}>
                 <Image src={Fund} fluid />
             </Container>
         </div>

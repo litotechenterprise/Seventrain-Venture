@@ -9,10 +9,10 @@ import Serge from '../images/7VenturePics/Serge.png'
 
 const Team = () => {
     return(
-        <div style={{padding:"5%"}}>       
+        <div style={{padding:"3%"}}>       
             <h1>Team</h1>
             <h2><u>An effective combination of venture investing exprtise and knowledge</u></h2>
-            <div style={{backgroundColor:'white', padding:100, borderRadius:100}}>
+            <div style={{backgroundColor:'white', padding:40, borderRadius:100}}>
                 <Container>
                     
                 </Container>
@@ -36,7 +36,7 @@ const Team = () => {
                     <text>a high-quality ecosystem that aims to achieve a lower risk / high return ratio</text>
                     <Row>
                         <Col><Image src={Fed} fluid /></Col>
-                        <Col><Image src={Serge} fluid /></Col>
+                        <Col></Col>
                     </Row>
                 </Container>
 
@@ -45,7 +45,6 @@ const Team = () => {
                         <Col></Col>
                         <Col></Col>
                     </Row>
-                
                 </Container>
             </div>
         </div>

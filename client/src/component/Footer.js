@@ -20,7 +20,7 @@ const Footer = () => {
                 <hr></hr>
                 <Row>
                     <Col>
-                        <text>200 Park Ave South. New York, NY 10003</text>
+                        <p>&copy;Copyright SevenTrain Venture. All rights reserved.</p>
                     </Col>
 
                     <Col>
@@ -28,12 +28,10 @@ const Footer = () => {
                     </Col>
 
                     <Col>
-                        <text>200 Park Ave South. New York, NY 10003</text>
+                        <p>200 Park Ave South. New York, NY 10003</p>
                     </Col>
                 </Row>
             </Container>
-           
-          
         </div>
     )
 

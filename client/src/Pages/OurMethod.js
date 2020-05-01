@@ -5,7 +5,7 @@ import Stage from '../images/7VenturePics/stage_investment.png'
 
 const OurMethod = () => {
     return(
-        <div style={{padding:"5%"}}>
+        <div style={{padding:"3%"}}>
             <h2><u>Our Method: </u></h2>
             <text>A modern approach to venture captial investing</text>
             <Container style={{backgroundColor:'white', padding:100, borderRadius:100}}>
