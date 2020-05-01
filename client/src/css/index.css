@@ -21,6 +21,7 @@ color:white;
 
 .Inside{
     font-family: 'Raleway', sans-serif;
+    font-size-adjust: inherit;
     color:black;
 }
 
