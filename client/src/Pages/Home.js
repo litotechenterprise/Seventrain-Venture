@@ -15,10 +15,10 @@ const Home = () => {
         <Container style={{flex:1}}>
           <AboutUS />
           <OurMethod />
-          <Team />
           <Terms />
           <Industries />
           <Geo />
+          <Team />
           <Contact />
         </Container>
     )

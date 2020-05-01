@@ -8,7 +8,8 @@ import logo from './images/7VenturePics/Logo.png'
 import {Navbar, Carousel, Nav} from 'react-bootstrap'
 import Photo1 from './images/Carousel_images/Photo1.jpg'
 import Photo2 from './images/Carousel_images/Photo2.jpg'
-import Photo3 from './images/Carousel_images/Photo3.jpg'
+import Photo5 from './images/Carousel_images/Photo5.jpg'
+import Photo7 from './images/Carousel_images/Photo7.jpg'
 import Footer from './component/Footer'
 import './css/index.css'
 
@@ -39,12 +40,11 @@ ReactDOM.render(
               </Nav.Item>
 
               <Nav.Item>
-                <Nav.Link href="#Team">Team</Nav.Link>
+                <Nav.Link href="#Terms">Terms</Nav.Link>
               </Nav.Item>
 
-
               <Nav.Item>
-                <Nav.Link href="#Terms">Terms</Nav.Link>
+                <Nav.Link href="#Team">Team</Nav.Link>
               </Nav.Item>
 
               <Nav.Item>
@@ -58,37 +58,26 @@ ReactDOM.render(
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src={Photo1}
+                    src={Photo5}
                     alt="First slide"
                     />
-                    {/* <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption> */}
                 </Carousel.Item>
                  
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src={Photo2}
-                    alt="First slide"
+                    src={Photo7}
+                    alt="Second slide"
                     />
-                    {/* <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption> */}
                 </Carousel.Item>  
 
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src={Photo3}
-                    alt="First slide"
+                    src={Photo1}
+                    alt="Third slide"
                     />
-                    {/* <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption> */}
+                    
                 </Carousel.Item> 
             </Carousel>
            

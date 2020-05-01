@@ -19,13 +19,13 @@ const Team = () => {
                 </Container>
                 <Container>
                     
-                    <h4>SevenTrain Venture Management Stucture</h4>
+                    <h2 className="Inside">SevenTrain Venture Management Stucture</h2>
                     <Image src={Org_Struct} fluid  />
                 </Container>
             
-                <Container>
-                    <h2><u>Strong management team with soild experise in venture captial</u></h2>
-                    <h4>SevenTrain gobal team is able to leverage its global management into venture captial investing</h4>
+                <Container style={{marginTop:40, alignItems:'center'}}>
+                    <h2 className="Inside">Strong management team with soild experise in venture captial</h2>
+                    <h4 className="Inside">SevenTrain gobal team is able to leverage its global management into venture captial investing</h4>
                     <Row>
                         <Col><Image src={Vikal} fluid /></Col>
                         <Col><Image src={Xavi} fluid /></Col>
@@ -33,8 +33,8 @@ const Team = () => {
                 </Container>
 
                 <Container>
-                    <h2><u>SevenTrain Venture extensive Operating Partner and network</u></h2>
-                    <h4>a high-quality ecosystem that aims to achieve a lower risk / high return ratio</h4>
+                    <h2 className="Inside"><u>SevenTrain Venture extensive Operating Partner and network</u></h2>
+                    <h4 className="Inside">a high-quality ecosystem that aims to achieve a lower risk / high return ratio</h4>
                     <Row>
                         <Col><Image src={Fed} fluid /></Col>
                         <Col></Col>
