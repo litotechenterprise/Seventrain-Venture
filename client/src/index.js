@@ -29,7 +29,7 @@ ReactDOM.render(
           </Navbar.Brand>
           <Nav className="justify-content-end">
             <Nav.Item>
-              <Nav.Link href="#targetname">About</Nav.Link>
+              <Nav.Link href="#About">About</Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
@@ -58,10 +58,10 @@ ReactDOM.render(
                     src={Photo1}
                     alt="First slide"
                     />
-                    <Carousel.Caption>
+                    {/* <Carousel.Caption>
                         <h3>First slide label</h3>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
+                    </Carousel.Caption> */}
                 </Carousel.Item>
                  
                 <Carousel.Item>
@@ -70,10 +70,10 @@ ReactDOM.render(
                     src={Photo2}
                     alt="First slide"
                     />
-                    <Carousel.Caption>
+                    {/* <Carousel.Caption>
                         <h3>First slide label</h3>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
+                    </Carousel.Caption> */}
                 </Carousel.Item>  
 
                 <Carousel.Item>
@@ -82,10 +82,10 @@ ReactDOM.render(
                     src={Photo3}
                     alt="First slide"
                     />
-                    <Carousel.Caption>
+                    {/* <Carousel.Caption>
                         <h3>First slide label</h3>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
+                    </Carousel.Caption> */}
                 </Carousel.Item> 
             </Carousel>
            
