@@ -25,7 +25,7 @@ ReactDOM.render(
                   height="30"
                   className="d-inline-block align-top"
                 />{' '}
-                SevenTrain Venture
+                SevenTrain Ventures
               </Navbar.Brand>
           
 
