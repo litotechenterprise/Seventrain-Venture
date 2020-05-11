@@ -8,10 +8,10 @@ const AboutUs = () => {
         <div>
             <a name="About"></a>
             <div style={{padding:"3%"}}>
-                <h1><u>About Us</u></h1>
+                <h1 style={{textAlign:'center'}}><u>About Us</u></h1>
                 <h2>Seventrain Ventures, the next generation venture model</h2>
                 <h4>A modern approach to venture captial investing</h4>
-                <Container style={{backgroundColor:'white', padding:40, borderRadius:100}}>
+                <Container style={{ padding:40, borderRadius:100}}>
                     <Image src={offer} fluid  />
                 </Container>
             </div>

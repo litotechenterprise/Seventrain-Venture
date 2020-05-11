@@ -9,7 +9,7 @@ const Industries = () => {
             <a name="Industries"></a>
             <h1><u>Industries</u></h1>
             <h4>A modern approach to venture captial investing</h4>
-            <Container style={{backgroundColor:'white', padding:30, borderRadius:100}}>
+            <Container style={{ padding:30, borderRadius:100}}>
             <Image src={Target} fluid  />
             </Container>
 

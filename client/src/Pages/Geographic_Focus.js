@@ -9,7 +9,7 @@ const Geographic_Focus = () => {
             <a name="Geo"></a>
             <h1><u>Geographic Focus</u></h1>
             <h4>A modern approach to venture captial investing</h4>
-            <Container style={{backgroundColor:'white', padding:40, borderRadius:100}}>
+            <Container style={{ padding:40, borderRadius:100}}>
                 <Image src={Grography} fluid  />
             </Container>
         </div>

@@ -9,7 +9,7 @@ const OurMethod = () => {
             <a name="Method"></a>
             <h1><u>Our Method: </u></h1>
             <h4>A modern approach to venture captial investing</h4>
-            <Container style={{backgroundColor:'white', padding:'1%', borderRadius:100}}>
+            <Container style={{ padding:'1%', borderRadius:100}}>
                 <Image src={Stage} fluid  />
              </Container>
 

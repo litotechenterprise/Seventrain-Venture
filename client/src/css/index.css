@@ -4,19 +4,24 @@
 
  /* font-family: 'Orbitron', sans-serif; */
  /* font-family: 'Merriweather', serif; */
+.Bar {
+    font-family: 'Merriweather', serif;
+}
+
 h1 {
     font-family: 'Merriweather', serif;
-    color:white;
+    color:rgba(0, 58, 120, 0.913);
 }
+
 
 h2 {
     font-family: 'Merriweather', serif;
-    color:white; 
+    color:rgba(0, 58, 120, 0.913); 
 }
 
 h4{
     font-family: 'Raleway', sans-serif;
-color:white;
+    color:rgba(0, 58, 120, 0.913); 
 }
 
 .Inside{
@@ -29,32 +34,58 @@ text {
     font-family: 'Merriweather', serif;
     color: white;
 }
+
 div .App-Container {
-    background: url('../images/backgrounds/africa.jpg');
+    background: url('../images/backgrounds/Background12.jpg');
+     background-size: 100% 100%; 
 }
+div .Header{
+    justify-self: center;
+    align-self: center;
+    margin-left: 25px;
+}
+
+.inline-flex-parent {
+    display: inline-flex;
+    align-self: 'center';
+}
+
+
+
+.grid-parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10;
+  }
+
+div .Info {
+    margin-left: 60pt;
+    margin-right: 15pt;
+    margin-top: 2pt;
+}
+
+div .BioStyle {
+    border-Top: 10px solid rgb(76,127,158);
+    border-bottom: 10px solid rgb(76,127,158);
+    margin-top: 10px
+}
+
 div .Footing {
     padding: 1%;
     border: 2px;
     border-color: aliceblue;
     border-width: 10px;
-    /* text-align: center;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    width: 100%; */
-}
-
-hr{
-    border: 1px solid black;
-}
-
-p{
-    font-family: 'Merriweather', serif;
-    color:white;
+  
 }
 
 
-p .right {
+h6, h6 .right {
+    font-family: 'Merriweather', serif; 
+    color: white;
+}
+
+
+h6 .right {
     align-items: flex-end;
+    
 }

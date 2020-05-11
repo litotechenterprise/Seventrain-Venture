@@ -6,21 +6,58 @@ import Industries from './Industries'
 import Contact from './Contact'
 import Geo from './Geographic_Focus'
 import Terms from './Term'
-import { Container} from 'react-bootstrap'
+import Photo1 from '../images/Carousel_images/Photo1.jpg'
+import Photo2 from '../images/Carousel_images/Photo2.jpg'
+import Photo5 from '../images/Carousel_images/Photo5.jpg'
+import Photo7 from '../images/Carousel_images/Photo7.jpg'
+import '../css/index.css'
+
+import { Container, Carousel} from 'react-bootstrap'
 
 
 
 const Home = () => {
     return (
-        <Container style={{flex:1}}>
-          <AboutUS />
-          <OurMethod />
-          <Terms />
-          <Industries />
-          <Geo />
-          <Team />
-          <Contact />
-        </Container>
+      <div>
+        <Carousel id='Carousel'>
+          <Carousel.Item>
+              <img
+              className="d-block w-100"
+              src={Photo5}
+              alt="First slide"
+              />
+          </Carousel.Item>
+          
+          <Carousel.Item>
+              <img
+              className="d-block w-100"
+              src={Photo7}
+              alt="Second slide"
+              />
+          </Carousel.Item>  
+
+          <Carousel.Item>
+              <img
+              className="d-block w-100"
+              src={Photo1}
+              alt="Third slide"
+              />
+              
+          </Carousel.Item>
+         
+        </Carousel>
+        <div className='App-Container'>
+          <Container className="HomePage" style={{flex:1}}>
+            <AboutUS />
+            <OurMethod />
+            <Terms />
+            <Industries />
+            <Geo />
+            <Contact />
+          </Container>
+        </div>
+      
+      </div>
     )
 }
 
