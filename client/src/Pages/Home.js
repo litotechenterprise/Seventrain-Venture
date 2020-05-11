@@ -53,7 +53,7 @@ const Home = () => {
             <Terms />
             <Industries />
             <Geo />
-            {/* <Press /> */}
+            <Press />
             <Contact />
           </Container>
         </div>
