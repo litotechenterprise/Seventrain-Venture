@@ -1,13 +1,13 @@
 import React from 'react';
 import OurMethod from './OurMethod'
 import AboutUS from './AboutUs'
-import Team from './Team'
+import Press from './Press'
 import Industries from './Industries'
 import Contact from './Contact'
 import Geo from './Geographic_Focus'
 import Terms from './Term'
 import Photo1 from '../images/Carousel_images/Photo1.jpg'
-import Photo2 from '../images/Carousel_images/Photo2.jpg'
+
 import Photo5 from '../images/Carousel_images/Photo5.jpg'
 import Photo7 from '../images/Carousel_images/Photo7.jpg'
 import '../css/index.css'
@@ -53,6 +53,7 @@ const Home = () => {
             <Terms />
             <Industries />
             <Geo />
+            {/* <Press /> */}
             <Contact />
           </Container>
         </div>

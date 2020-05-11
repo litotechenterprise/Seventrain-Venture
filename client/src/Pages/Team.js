@@ -3,7 +3,7 @@ import {Image, Container, Row, Col, Card, Button} from 'react-bootstrap';
 import Org_Struct from '../images/7VenturePics/Org_structure.png'
 import VK_Head from '../images/7VenturePics/VK_Headshot.png'
 import FS_Head from '../images/7VenturePics/FS_Headshot.png'
-import XF_Head from '../images/7VenturePics/XF_Headshot.png'
+import XF_Head from '../images/7VenturePics/XF_Headshot.jpg'
 import ST_Head from '../images/7VenturePics/ST_Headshot.png'
 import STBioInfo from '../component/STBio'
 import XFBioInfo from '../component/XfBio'
@@ -74,7 +74,7 @@ const Team = () => {
                     <div style={{alignItems:'center', justifyContent:'center'}}>
                         <div class='parent inline-flex-parent' style={{alignSelf:'center', justifyItems:'center'}}>
                             <div class='Image' style={{}}>
-                                <Image className="ProfilePic" src={XF_Head} />
+                                <Image className="ProfilePic" src={XF_Head} style={{width:100, height:100}} />
                             </div>
                             <div class='Header' >
                                 <h5>Xavi Flores</h5>
