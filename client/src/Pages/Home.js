@@ -7,7 +7,7 @@ import Contact from './Contact'
 import Geo from './Geographic_Focus'
 import Terms from './Term'
 import Photo8 from '../images/Carousel_images/Photo8.jpeg'
-
+import Photo9 from '../images/Carousel_images/Photo9.jpeg'
 import Photo5 from '../images/Carousel_images/Photo5.jpg'
 import Photo7 from '../images/Carousel_images/Photo7.jpg'
 import '../css/index.css'
@@ -31,7 +31,7 @@ const Home = () => {
           <Carousel.Item>
               <img
               className="d-block w-100"
-              src={Photo7}
+              src={Photo8}
               alt="Second slide"
               />
           </Carousel.Item>  
@@ -39,10 +39,9 @@ const Home = () => {
           <Carousel.Item>
               <img
               className="d-block w-100"
-              src={Photo8}
+              src={Photo9}
               alt="Third slide"
               />
-              
           </Carousel.Item>
          
         </Carousel>

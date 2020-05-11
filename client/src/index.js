@@ -36,6 +36,7 @@ ReactDOM.render(
                   <NavDropdown.Item href="/#About">About Us</NavDropdown.Item>
                   <NavDropdown.Item href="/#Method">Our Method</NavDropdown.Item>
                   <NavDropdown.Item href="/#Terms">Terms</NavDropdown.Item>
+                  <NavDropdown.Item href="/#Press">Press</NavDropdown.Item>
                   <NavDropdown.Item href="/Team">Team</NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item href="/#Contact">Contact Us</NavDropdown.Item>
