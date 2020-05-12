@@ -145,7 +145,7 @@ const Team = () => {
                     </div>
                     <div class='parent grid-parent' >
                         <Button variant="secondary" onClick={() => setFSBio(!FSBio)}> Bio</Button>
-                        <Button variant="secondary" href="mailto:xavi@Seventrainventure.com">Email</Button> 
+                        <Button variant="secondary" href="mailto:f@Seventrainventure.com">Email</Button> 
                     </div>
                     {FSBio ? <FSBioInfo /> : null}
                 </div>
@@ -185,7 +185,7 @@ const Team = () => {
                     </div>
                     <div class='parent grid-parent' >
                         <Button variant="secondary" onClick={() => setSTBio(!STBio)}> Bio</Button>
-                        <Button variant="secondary" href="mailto:xavi@Seventrainventure.com">Email</Button> 
+                        <Button variant="secondary" href="mailto:serge@seventrainventures.com">Email</Button> 
                     </div>
                     {STBio ? <STBioInfo /> : null}
                 </div>
