@@ -5,7 +5,7 @@ const Press = () => {
     return(
     <div style={{padding:"3%"}}>
         <a name="Press"></a>
-        <h1><u>Press</u></h1>
+        <h1><u>Press / Publications</u></h1>
         <Container style={{ padding:40, borderRadius:100}}>
             <ul>
                 <li><a href="https://www.linkedin.com/pulse/ideas-how-reactivate-quintana-roo-post-covid19-xavier-flores"><h4>Ideas on how to reactivate Quintana Roo post-COVID 19</h4></a></li>

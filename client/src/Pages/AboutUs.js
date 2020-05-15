@@ -9,8 +9,7 @@ const AboutUs = () => {
             <a name="About"></a>
             <div style={{padding:"3%"}}>
                 <h1 style={{textAlign:'center'}}><u>About Us</u></h1>
-                <h2>Seventrain Ventures, the next generation venture model</h2>
-                <h4>A modern approach to venture captial investing</h4>
+                <h4 style={{textAlign:'center'}}>A team of professionals seeking to help startups grow through coaching, mentoring, investments and network introductions</h4>
                 <Container style={{ padding:40, borderRadius:100}}>
                     <Image src={offer} fluid  />
                 </Container>

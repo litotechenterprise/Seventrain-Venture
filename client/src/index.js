@@ -5,7 +5,7 @@ import App from './Pages/App'
 import axios from 'axios'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './images/7VenturePics/Logo.png'
-import {Navbar, Carousel, Nav, Container, NavDropdown} from 'react-bootstrap'
+import {Navbar, Nav, Container, NavDropdown} from 'react-bootstrap'
 import Footer from './component/Footer'
 import './css/index.css'
 
