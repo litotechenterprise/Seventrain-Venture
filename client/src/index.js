@@ -18,7 +18,6 @@ ReactDOM.render(
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
               <Navbar.Brand href="/">
-               {/* <div class='parent inline-flex-parent' style={{marginTop:10}}> */}
                 <img
                     alt=""
                     src={logo}
@@ -27,11 +26,7 @@ ReactDOM.render(
                     className="d-inline-block align-top"
                   />{' '}
                   <text id="Bar" style={{marginLeft: 10}} >SevenTrain Ventures</text>
-
-               {/* </div> */}
               </Navbar.Brand>
-          
-
             <Navbar.Toggle />
             <Navbar.Collapse>
               <Nav className="justify-content-end" style={{ width: "90%" }}>
