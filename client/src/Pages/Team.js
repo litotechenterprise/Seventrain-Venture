@@ -3,7 +3,7 @@ import {Image, Container, Row, Col, Card, Button} from 'react-bootstrap';
 import Org_Struct from '../images/7VenturePics/Org_structure.png'
 import VK_Head from '../images/7VenturePics/VK_Headshot.png'
 import FS_Head from '../images/7VenturePics/FS_Headshot.png'
-import XF_Head from '../images/7VenturePics/XF_Headshot.JPG'
+import XF_Head from '../images/7VenturePics/XF.jpg'
 import ST_Head from '../images/7VenturePics/ST_Headshot.png'
 import STBioInfo from '../component/STBio'
 import XFBioInfo from '../component/XfBio'
