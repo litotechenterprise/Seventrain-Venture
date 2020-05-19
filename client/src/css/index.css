@@ -6,13 +6,14 @@
 /* Nav Bar Font */
 @import url('https://fonts.googleapis.com/css2?family=Timmana&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@700&display=swap');
 
  /* font-family: 'Orbitron', sans-serif; */
  /* font-family: 'Merriweather', serif; */
 
 
 h1 {
-    font-family: 'Merriweather', serif;
+    font-family: 'Vesper Libre', serif;
     color:rgb(29, 95, 165);
 }
 
@@ -23,8 +24,8 @@ h1 {
 }
 
 h1#Header {
-    font-family: 'Alex Brush', cursive;
-    color:rgb(251, 239, 70);
+    font-family: 'Vesper Libre', serif;
+    color:rgb(240, 230, 88);
     font-size: 80px;
 }
 
@@ -33,19 +34,19 @@ h1#Header {
 
 
 text#Bar {
-    font-family: 'Timmana', sans-serif;
+    font-family: 'Vesper Libre', serif;
     color:rgba(255, 255, 255);
 }
 
 text#footer {
-    font-family: 'Timmana', sans-serif;
+    font-family: 'Vesper Libre', serif;
     color:rgba(255, 255, 255);
 }
 
 
 
 h2 {
-    font-family: 'Merriweather', serif;
+    font-family: 'Vesper Libre', serif;
     color:rgb(90, 163, 241); 
 }
 
