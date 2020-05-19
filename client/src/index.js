@@ -17,15 +17,18 @@ ReactDOM.render(
      
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
-              <Navbar.Brand className="Bar" href="/">
+              <Navbar.Brand href="/">
+               {/* <div class='parent inline-flex-parent' style={{marginTop:10}}> */}
                 <img
-                  alt=""
-                  src={logo}
-                  width="30"
-                  height="30"
-                  className="d-inline-block align-top"
-                />{' '}
-                SevenTrain Ventures
+                    alt=""
+                    src={logo}
+                    width="30"
+                    height="30"
+                    className="d-inline-block align-top"
+                  />{' '}
+                  <text id="Bar" style={{marginLeft: 10}} >SevenTrain Ventures</text>
+
+               {/* </div> */}
               </Navbar.Brand>
           
 

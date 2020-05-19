@@ -14,8 +14,8 @@ const Footer = () => {
                         src={LOGO}
                     />
                 </Row>
-                <Row style={{alignItems:'center', justifyContent:'center'}}>
-                    <text>SevenTrain Venture</text>
+                <Row style={{alignItems:'center', justifyContent:'center', marginTop:10}}>
+                    <text id='footer'>SevenTrain Venture</text>
                 </Row>
                 <hr style={{background:'black'}}></hr>
                 <Row>

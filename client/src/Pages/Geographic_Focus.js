@@ -7,8 +7,8 @@ const Geographic_Focus = () => {
     return(
         <div style={{padding:"3%"}}>
             <a name="Geo"></a>
-            <h1><u>Geographic Focus</u></h1>
-            <h4>Seventrain focus on high-growth markets with large opportunities</h4>
+            <h1 style={{textAlign:'center'}}><u>Geographic Focus</u></h1>
+            <h4 style={{textAlign:'center'}}>Seventrain focus on high-growth markets with large opportunities</h4>
             <Container style={{ padding:40, borderRadius:100}}>
                 <Image src={Grography} fluid  />
             </Container>

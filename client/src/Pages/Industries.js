@@ -7,8 +7,8 @@ const Industries = () => {
     return(
         <div style={{padding:"3%"}}>
             <a name="Industries"></a>
-            <h1><u>Industries</u></h1>
-            <h4>Seventrain Ventures focus on it's investments on high return Industries and growing technologies</h4>
+            <h1 style={{textAlign:'center'}}><u>Industries</u></h1>
+            <h4 style={{textAlign:'center'}}>Seventrain Ventures focus on it's investments on high return Industries and growing technologies</h4>
             <Container style={{ padding:30, borderRadius:100}}>
             <Image src={Target} fluid  />
             </Container>

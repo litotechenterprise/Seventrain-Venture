@@ -2,26 +2,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,800;1,400;1,500&family=Orbitron&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway:ital,wght@1,800&display=swap');
 
+
+/* Nav Bar Font */
+@import url('https://fonts.googleapis.com/css2?family=Timmana&display=swap');
+
  /* font-family: 'Orbitron', sans-serif; */
  /* font-family: 'Merriweather', serif; */
-.Bar {
-    font-family: 'Merriweather', serif;
-}
+
 
 h1 {
     font-family: 'Merriweather', serif;
-    color:rgba(0, 58, 120, 0.913);
+    color:rgb(29, 95, 165);
 }
+
+text#Bar {
+    font-family: 'Timmana', sans-serif;
+    color:rgba(255, 255, 255);
+}
+
+text#footer {
+    font-family: 'Timmana', sans-serif;
+    color:rgba(255, 255, 255);
+}
+
 
 
 h2 {
     font-family: 'Merriweather', serif;
-    color:rgba(0, 58, 120, 0.913); 
+    color:rgb(90, 163, 241); 
 }
 
 h4{
     font-family: 'Raleway', sans-serif;
-    color:rgba(0, 58, 120, 0.913); 
+    color:rgb(66, 70, 83);
 }
 
 .Inside{
@@ -36,8 +49,8 @@ text {
 }
 
 div .App-Container {
-    background: url('../images/backgrounds/Background12.jpg');
-     background-size: 100% 100%; 
+    /* background: url('../images/backgrounds/Background15.eps');
+    background-size: 100% 100%;  */
 }
 div .Header{
     justify-self: center;

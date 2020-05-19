@@ -7,8 +7,8 @@ const OurMethod = () => {
     return(
         <div style={{padding:"3%"}}>
             <a name="Method"></a>
-            <h1><u>Our Method: </u></h1>
-            <h4>A modern approach to venture captial investing</h4>
+            <h1 style={{textAlign:'center'}}><u>Our Method: </u></h1>
+            <h4 style={{textAlign:'center'}}>A modern approach to venture captial investing</h4>
             <Container style={{ padding:'1%', borderRadius:100}}>
                 <Image src={Stage} fluid  />
              </Container>

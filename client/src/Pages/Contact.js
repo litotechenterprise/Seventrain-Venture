@@ -7,7 +7,7 @@ const Contact = () => {
         <div style={{padding:"3%"}}>
             <a name="Contact"></a>
             <Container>
-                <h1><u>Contact us</u></h1>
+                <h1 style={{textAlign:'center'}}><u>Contact us</u></h1>
                     <Row>
                         <Col>
                             <Card>

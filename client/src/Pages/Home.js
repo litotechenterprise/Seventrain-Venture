@@ -8,11 +8,9 @@ import Geo from './Geographic_Focus'
 import Terms from './Term'
 import Photo8 from '../images/Carousel_images/Photo8.jpeg'
 import Photo9 from '../images/Carousel_images/Photo9.jpeg'
-import Photo5 from '../images/Carousel_images/Photo5.jpg'
-import Photo7 from '../images/Carousel_images/Photo7.jpg'
 import '../css/index.css'
 
-import { Container, Carousel} from 'react-bootstrap'
+import { Container, Carousel, Image} from 'react-bootstrap'
 
 
 
@@ -22,31 +20,27 @@ const Home = () => {
         <Carousel id='Carousel'>
           <Carousel.Item>
               <img
-              className="d-block w-100"
-              src={Photo5}
-              alt="First slide"
-              />
-          </Carousel.Item>
-          
-          <Carousel.Item>
-              <img
-              className="d-block w-100"
+              className="d-block w-100 h-50"
               src={Photo8}
+              width="100%"
+              height='30%'
               alt="Second slide"
               />
           </Carousel.Item>  
 
           <Carousel.Item>
               <img
-              className="d-block w-100"
+              className="d-block w-100 h-50"
               src={Photo9}
+              width="100%"
+              height='30%'
               alt="Third slide"
               />
           </Carousel.Item>
          
         </Carousel>
         <div className='App-Container'>
-          <Container className="HomePage" style={{flex:1}}>
+          <Container className="HomePage" style={{flex:1, }}>
             <AboutUS />
             <OurMethod />
             <Terms />

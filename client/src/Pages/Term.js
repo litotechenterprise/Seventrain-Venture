@@ -8,8 +8,8 @@ const Terms = () => {
     return(
         <div style={{padding:"3%"}}>
             <a name="Terms"></a>
-            <h1><u>SevenTrain terms of inventments </u></h1>
-            <h4>Summary of terms</h4>
+            <h1 style={{textAlign:'center'}}><u>SevenTrain terms of inventments </u></h1>
+            <h4 style={{textAlign:'center'}}>Summary of terms</h4>
             {/* <Container style={{ alignItems:'center',justifyContent:'center', padding:50, borderRadius:100}}> */}
                 {/* <Image src={Fund} fluid /> */}
                 <Table striped bordered hover variant="dark" responsive>
