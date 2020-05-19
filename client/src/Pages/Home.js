@@ -6,6 +6,7 @@ import Industries from './Industries'
 import Contact from './Contact'
 import Geo from './Geographic_Focus'
 import Terms from './Term'
+import Early from './Early'
 import Photo from '../images/backgrounds/Background9.jpg'
 import Photo8 from '../images/Carousel_images/Photo8.jpeg'
 import Photo9 from '../images/Carousel_images/Photo9.jpeg'
@@ -62,6 +63,7 @@ const Home = () => {
         <div className='App-Container'>
           <Container className="HomePage" style={{flex:1, }}>
             <AboutUS />
+            <Early />
             <OurMethod />
             <Terms />
             <Industries />

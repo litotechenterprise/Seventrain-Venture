@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Timmana&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sanchez:ital@1&display=swap');
 
  /* font-family: 'Orbitron', sans-serif; */
  /* font-family: 'Merriweather', serif; */
@@ -47,16 +48,17 @@ text#footer {
 
 h2 {
     font-family: 'Vesper Libre', serif;
-    color:rgb(90, 163, 241); 
+    color:rgb(8, 121, 243); 
 }
 
 h4{
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Sanchez', serif;
     color:rgb(66, 70, 83);
 }
 
 .Inside{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Sanchez', serif;
     font-size-adjust: inherit;
     color:black;
 }
