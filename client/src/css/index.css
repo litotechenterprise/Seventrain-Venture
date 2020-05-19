@@ -28,8 +28,17 @@ h1#Header {
     font-family: 'Vesper Libre', serif;
     color:rgb(240, 230, 88);
     font-size: 80px;
+    font-size-adjust: initial;
 }
 
+@media screen and (max-width: 700px) {
+    h1#Header {
+        font-family: 'Vesper Libre', serif;
+        color:rgb(240, 230, 88);
+        font-size: 40px;
+        font-size-adjust: initial;
+    }
+  }
 
 
 
