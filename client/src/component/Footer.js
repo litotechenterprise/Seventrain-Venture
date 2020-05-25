@@ -1,11 +1,11 @@
 import React from 'react';
 import {Image, Container, Row, Col, } from 'react-bootstrap'
-import LOGO from '../images/7VenturePics/Logo.png'
+import LOGO from '../images/Company/Logo.png'
 import '../css/index.css'
 
 const Footer = () => {
     return(
-        <div className="Footing" style={{backgroundColor:'#333a40'}}>
+        <div className="Footing" style={{backgroundColor:'#333a40', padding:10}}>
             <Container style={{borderBottomColor:'white', borderBottomWidth:3}}>
                 <Row style={{alignItems:'center', justifyContent:'center'}}>
                     <Image

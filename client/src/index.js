@@ -4,8 +4,8 @@ import * as serviceWorker from './serviceWorker';
 import App from './Pages/App'
 import axios from 'axios'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from './images/7VenturePics/Logo.png'
-import {Navbar, Nav, Container, NavDropdown} from 'react-bootstrap'
+// import logo from './images/7VenturePics/Logo.png'
+// import {Navbar, Nav, Container, NavDropdown} from 'react-bootstrap'
 import Footer from './component/Footer'
 import './css/index.css'
 
@@ -14,7 +14,7 @@ window.axios = axios;
 
 ReactDOM.render(
   <React.StrictMode>
-     
+{/*      
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
               <Navbar.Brand href="/">
@@ -42,9 +42,9 @@ ReactDOM.render(
               </Nav>
             </Navbar.Collapse>
             </Container>
-          </Navbar>
+          </Navbar> */}
        
-        <div style={{flex:1}}>
+        <div style={{flex:1,}}>
           <App />
         </div>
         <Footer />

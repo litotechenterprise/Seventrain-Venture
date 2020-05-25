@@ -12,17 +12,53 @@
  /* font-family: 'Orbitron', sans-serif; */
  /* font-family: 'Merriweather', serif; */
 
-
+/* 
 h1 {
     font-family: 'Vesper Libre', serif;
     color:rgb(29, 95, 165);
+} */
+
+.Carousel {
+    width:100%;
 }
 
+hr {
+    height: 1000px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: 0%;
+  }
+
 #first{
-    top: 35%;
+    top: 17%;
     transform: translateY(-0%);
     bottom: initial;
+
+} 
+#first-One {
+    top: 75%;
+    transform: translateY(50%);
+    bottom: initial;
 }
+
+#second {
+    top: 5.5%;
+    /* transform: translateX(); */
+    bottom: initial;
+}
+
+#third {
+    height: 100x;
+    object-fit: contain;
+}
+
+
+
+
+/*
 
 h1#Header {
     font-family: 'Vesper Libre', serif;
@@ -46,7 +82,7 @@ h1#Header {
 text#Bar {
     font-family: 'Vesper Libre', serif;
     color:rgba(255, 255, 255);
-}
+} */
 
 text#footer {
     font-family: 'Vesper Libre', serif;
@@ -55,13 +91,19 @@ text#footer {
 
 
 
+
+
+
+
+/* 
+
 h2 {
     font-family: 'Vesper Libre', serif;
     color:rgb(8, 121, 243); 
 }
 
 h4{
-    /* font-family: 'Raleway', sans-serif; */
+    /* font-family: 'Raleway', sans-serif; 
     font-family: 'Sanchez', serif;
     color:rgb(66, 70, 83);
 }
@@ -70,16 +112,16 @@ h4{
     font-family: 'Sanchez', serif;
     font-size-adjust: inherit;
     color:black;
-}
+} */
 
 text {
     font-family: 'Merriweather', serif;
     color: white;
 }
 
-div .App-Container {
+/*div .App-Container {
     /* background: url('../images/backgrounds/Background15.eps');
-    background-size: 100% 100%;  */
+    background-size: 100% 100%;  
 }
 div .Header{
     justify-self: center;
@@ -118,7 +160,7 @@ div .Footing {
     border-color: aliceblue;
     border-width: 10px;
   
-}
+} */
 
 
 h6, h6 .right {
@@ -130,4 +172,4 @@ h6, h6 .right {
 h6 .right {
     align-items: flex-end;
     
-}
+} 

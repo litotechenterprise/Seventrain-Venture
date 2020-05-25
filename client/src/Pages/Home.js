@@ -1,80 +1,95 @@
-import React from 'react';
-import OurMethod from './OurMethod'
-import AboutUS from './AboutUs'
-import Press from './Press'
-import Industries from './Industries'
-import Contact from './Contact'
-import Geo from './Geographic_Focus'
-import Terms from './Term'
-import Early from './Early'
-import Photo from '../images/backgrounds/Background9.jpg'
-import Photo8 from '../images/Carousel_images/Photo8.jpeg'
-import Photo9 from '../images/Carousel_images/Photo9.jpeg'
-import '../css/index.css'
-
-import { Container, Carousel, Image} from 'react-bootstrap'
-
-
+import React, {useState} from 'react';
+import Logo from '../images/7VenturePics/Logo.png'
+import { Container, Image, Button, Form, Col, Row} from 'react-bootstrap'
 
 const Home = () => {
-    return (
-      <div>
-        <Carousel id='Carousel'>
-          <Carousel.Item>
-              <img
-              id="first"
-              className="d-block w-100 h-50"
-              src={Photo}
-              alt="First slide"
-              position="relative"
-              z-index="-1"
-              />
-          <Carousel.Caption id='first'>
-            <h1 id='Header'>Global Venture Developers of High Quality Early Stage Ventures</h1>
-          </Carousel.Caption>
-              
-          </Carousel.Item>  
-          <Carousel.Item>
-              <img
-              className="d-block w-100 h-50"
-              src={Photo8}
-              width="100%"
-              height='30%'
-              alt="Second slide"
-              />
-          </Carousel.Item>  
+    const [LogInKeys, setLogInKeys] = useState({
+        username:"",
+        password:""
+    })
 
-          <Carousel.Item>
-              <img
-              className="d-block w-100 h-50"
-              src={Photo9}
-              width="100%"
-              height='30%'
-              alt="Third slide"
-              />
-          </Carousel.Item>
-         
-        </Carousel>
+    const handleChange = (event) => {
+      const { value, name } = event.target;
 
-        <div>
-          <h2 style={{textAlign:'center', fontSize:50, marginTop:20}}>For Investors By Investors <br></br> For Entrepreneurs By Entrepreneurs</h2>
-        </div>
+      setLogInKeys(prevValue => {
+        if(name === 'username'){
+          return {
+            username: value,
+            password: prevValue.password
+          }
+        } else if (name === 'password') {
+          return {
+            username: prevValue.username,
+            password: value
+          }
+        }
+      })
+    }
+  
+    const handleSubmit = (event) => {
+      try{
+        fetch('http://localhost:8080/api/user/login', {
+          method: 'POST',
+          headers: {
+            Accept: 'application/json',
+            'Content-Type': 'application/json'
+          },
+          body: LogInKeys,
+          mode:'no-cors'
+        }).then((response) => console.log(response))
+        .catch((error) => {
+          console.error(error)
+        })
+      } catch(e){
+        alert('Invalid Login Credentials')
+      }
 
-        <div className='App-Container'>
-          <Container className="HomePage" style={{flex:1, }}>
-            <AboutUS />
-            <Early />
-            <OurMethod />
-            <Terms />
-            <Industries />
-            <Geo />
-            <Press />
-            <Contact />
-          </Container>
-        </div>
-      
-      </div>
-    )
+      event.preventDefault();
+    }
+        return (
+          <div style={{flex:1}}>
+            <Container style={{justifyContent:'center', alignItems:'center', marginTop:20, marginBottom:20}}>
+              <Container>
+                <Row>
+                  <Col></Col>
+                  <Col>
+                    <Image src={Logo} fluid className="center-block"/>
+                  </Col>
+                  <Col></Col>
+                </Row>
+              </Container>
+
+
+              <h1 style={{textAlign:'center'}}>SevenTrain Ventures</h1>
+              <Form onSubmit={handleSubmit}>
+                <Form.Group controlId="formBasicEmail">
+                  <Form.Label>Username</Form.Label>
+                  <Form.Control placeholder="Username" type='text' name='username' value={LogInKeys.username} onChange={handleChange}/>
+                </Form.Group>
+
+                <Form.Group controlId="formBasicPassword">
+                  <Form.Label>Password</Form.Label>
+                  <Form.Control type="password" placeholder="Password" name='password' value={LogInKeys.password} onChange={handleChange}/>
+                </Form.Group>
+
+                <Row >
+                  <Col style={{textAlign:'center'}}>
+                    <Button variant="success" type="submit" value="Submit">
+                    Login
+                    </Button>
+                  </Col>
+
+                  <Col style={{textAlign:'center'}}>
+                    <Button variant="secondary" href='/SignUp'>
+                    Sign Up
+                    </Button>
+                  </Col>
+                </Row>
+                
+              </Form>
+            </Container>
+          </div>
+        )
 }
 
 
