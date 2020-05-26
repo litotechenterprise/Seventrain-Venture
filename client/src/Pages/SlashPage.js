@@ -18,7 +18,7 @@ const SplashPage = () => {
                         <Container>
                             <Row>
                                 <Col style={{marginTop: 10}}>
-                                    <text style={{fontSize: 20}}>SevenTrainVentures</text>
+                                    <text className="Title">SevenTrainVentures</text>
                                 </Col>
                                 <Col>
                                     <img  
@@ -58,7 +58,7 @@ const SplashPage = () => {
                             <Container>
                                 <Row>
                                     <Col style={{marginTop: 8}}>
-                                        <text id='header2' style={{fontSize:20}}>Global Connectivity</text>
+                                        <text className="Title">Global Connectivity</text>
                                     </Col>
                                     <Col>
                                         <img  
@@ -126,7 +126,7 @@ const SplashPage = () => {
                             <Container>
                                 <Row>
                                     <Col style={{marginTop: 8}}>
-                                        <text style={{fontSize: 20}}>Our Business</text>
+                                        <text className="Title">Our Business</text>
                                     </Col>
                                     <Col>
                                         <img  

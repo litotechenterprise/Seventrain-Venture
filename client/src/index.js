@@ -8,6 +8,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import {Navbar, Nav, Container, NavDropdown} from 'react-bootstrap'
 import Footer from './component/Footer'
 import './css/index.css'
+import './fonts/pirulen\ rg.ttf'
+import './fonts/Metropolis-Regular.otf'
 
 
 window.axios = axios;

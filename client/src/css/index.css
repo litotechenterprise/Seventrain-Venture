@@ -9,6 +9,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Sanchez:ital@1&display=swap');
 
 
+@font-face {
+    font-family: 'Pirulen';
+    src: local('Pirulen'), url(../fonts/pirulen\ rg.ttf) format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Metropolis-Regular';
+    src: local('Metropolis-Regular'), url(../fonts/Metropolis-Regular.otf) format('truetype');
+}
 
 .Carousel {
     width:100%;
@@ -16,11 +26,13 @@
 }
 
 h6.info{
+    font-family:'Metropolis-Regular';
     font-size: 15px;
 }
 
-text.header2 {
-    font-size: 20;
+text.Title {
+    font-size: 20px;
+    font-family: 'Pirulen';
 }
 
 div.container {
@@ -56,10 +68,20 @@ div.container {
 
 h1#header1 {
     font-size: 50px;
+    font-family:'Metropolis-Regular';
+}
+
+h2#header2 {
+    font-family:'Metropolis-Regular';
+}
+
+h2#header3 {
+    font-family:'Metropolis-Regular';
 }
 
 h6#LeftSlide2 {
     font-size: 50px;
+    font-family:'Metropolis-Regular';
 }
 
 img#Map {
@@ -226,17 +248,17 @@ img#Map {
 }
 
 text#footer {
-    font-family: 'Vesper Libre', serif;
+    font-family: 'Pirulen';
     color:rgba(255, 255, 255);
 }
 
 text {
-    font-family: 'Merriweather', serif;
+    font-family:'Metropolis-Regular';
     color: white;
 }
 
 h6, h6 .right {
-    font-family: 'Merriweather', serif; 
+    font-family:'Metropolis-Regular'; 
     color: white;
     font-size: 10px;
 }
