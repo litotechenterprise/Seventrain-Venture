@@ -198,7 +198,7 @@ const SplashPage = () => {
                     <hr style={{background:'black'}}></hr>
                     <Row>
                         <Col>
-                            <h6 className='footer'>&copy;Copyright SevenTrain Venture. All rights reserved.</h6>
+                            <h6 className='footer'>&copy; Copyrights SevenTrainVentures. All rights reserved.</h6>
                         </Col>
 
                         <Col>
