@@ -51,8 +51,7 @@ div.container {
 }
 
 #third {
-    height: 100x;
-    object-fit: contain;
+    top: 7%
 }
 
 h1#header1 {
@@ -104,7 +103,7 @@ img#Map {
 
     img#Map {
         width:450px; 
-        height:60%;; 
+        height:60%; 
     }
     h6.info{
         font-size: 12px;
@@ -125,7 +124,7 @@ img#Map {
     }
 
     img#Map {
-        width:300;
+        width:200px;
         height: 50%; 
     }
 
@@ -154,13 +153,16 @@ img#Map {
         top: 15%;
         /* transform: translateX(); */
     }
+    #third {
+        top: 2%
+    }
 
     h2#header2 {
         font-size: 18px;
     }
 
     h2#header3 {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     h6.LeftSlide2 {
@@ -168,7 +170,8 @@ img#Map {
     }
     
     img#Map {
-        width:300px; 
+        width:200px;
+        height: 200px; 
     } 
 
     h6.footer, h6.right {
@@ -205,8 +208,8 @@ img#Map {
     }
 
     img#Map {
-        width:150px; 
-        height: 200px;
+        width:50px; 
+        height: 300px;
     }
 
     Image.footerlogo {

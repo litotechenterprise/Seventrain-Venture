@@ -108,7 +108,7 @@ const SplashPage = () => {
                                             CRM, BLOCKCHAIN,
                                             DATA & ANALYTICS</h6>
                                     </Col>
-                                    <Col sm={8}>
+                                    <Col sm={6}>
                                         <img 
                                             id="Map"
                                             src={Photo9}
@@ -146,7 +146,7 @@ const SplashPage = () => {
                     position="relative"
                     z-index="-1"
                     />
-                     <Carousel.Caption id="second">
+                     <Carousel.Caption id="third">
                         <div style={{backgroundColor:'#4f5e69'}}>
                            <h2 id='header3'>We advice and execute aggressive mandates on behalf of our clients -- Founders and Investors --
                                 as Co-CEO, -CFO, -CRO, -CMO using our proprietary CSuite-as-a-Service (CSaaS) framework. We
@@ -154,7 +154,7 @@ const SplashPage = () => {
                                 success of our clients.</h2>
                         </div>
 
-                        <div style={{paddingTop:'15%'}}>
+                        <div style={{paddingTop:'10%'}}>
                             <Row>
                                 <Col style={{backgroundColor:'#4f5e69'}}><h6 className="info">SALES, STRATEGY & PARTNERSHIPS</h6></Col>
                                 <Col></Col>
