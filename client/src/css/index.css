@@ -213,6 +213,11 @@ img#Map {
 }
 
 @media screen and (max-width: 400px) {
+    text.Title {
+        font-size: 15px;
+        font-family: 'Pirulen';
+    }
+
     h1#header1 {
         font-size: 20px;   
     }
@@ -244,6 +249,11 @@ img#Map {
 
     h6.info{
         font-size: 8px;
+    }
+
+    text#foot {
+        font-family: 'Pirulen';
+        font-size: 10px;
     }
 }
 

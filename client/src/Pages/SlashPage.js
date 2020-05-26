@@ -193,7 +193,7 @@ const SplashPage = () => {
                     </Row>
                     {/* Row */}
                     <Row style={{alignItems:'center', justifyContent:'center', marginTop:"2%"}}>
-                        <text id='footer'>SevenTrainVentures</text>
+                        <text id='foot'>SevenTrainVentures</text>
                     </Row>
                     <hr style={{background:'black'}}></hr>
                     <Row>
