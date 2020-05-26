@@ -11,14 +11,14 @@ import '../css/index.css'
 
 const SplashPage = () => {
     return(
-        <div>
+        <div id="container">
             <Carousel >
-                <Carousel.Item >
+                <Carousel.Item  style={{flex:1}}>
                     <div style={{backgroundColor:'#275090'}}>
                         <Container>
                             <Row>
                                 <Col style={{marginTop: 10}}>
-                                    <text style={{fontSize: 20}}>SevenTrain Venture</text>
+                                    <text style={{fontSize: 20}}>SevenTrainVentures</text>
                                 </Col>
                                 <Col>
                                     <img  
@@ -37,10 +37,10 @@ const SplashPage = () => {
                     alt="First slide"
                     />
                     <Carousel.Caption id="first">
-                        <div style={{borderTop:50, borderBlockColor:'white'}}>
-                            <hr style={{height:"10px"}} color='white'></hr>
-                            <h1 style={{fontSize:50, borderTop:50, borderBlockColor:'white'}}>A global independent venture group providing <br/>
-                                <span style={{color:'#cf7821'}}>confidential</span>, unconflicted, strategic advice to <br/>
+                        <div>
+                            <hr id="Bar"style={{height:"8px"}} color='white'></hr>
+                            <h1 id="header1">A global independent venture group providing
+                                <span style={{color:'#cf7821'}}>  confidential</span>, unconflicted, strategic advice to <br/>
                                 founders and investors</h1>
                         </div>
                     </Carousel.Caption>
@@ -53,12 +53,12 @@ const SplashPage = () => {
                     </Carousel.Caption>
                 </Carousel.Item>  
 
-                <Carousel.Item >
+                <Carousel.Item style={{flex:1}}>
                     <div style={{backgroundColor:'#275090'}}>
                             <Container>
                                 <Row>
                                     <Col style={{marginTop: 8}}>
-                                        <text style={{fontSize: 20}}>Global Connectivity</text>
+                                        <text id='header2' style={{fontSize:20}}>Global Connectivity</text>
                                     </Col>
                                     <Col>
                                         <img  
@@ -79,46 +79,49 @@ const SplashPage = () => {
                     z-index="-1"
                     />
                        <Carousel.Caption id="second">
-                        <div style={{backgroundColor:'#4f5e69', height:775}}>
-                           <h2>Since inception, we have advised clients across a wide variety of industries and
+                        <Container style={{backgroundColor:'#4f5e69'}}>
+                           <h2 id='header2'>Since inception, we have advised clients across a wide variety of industries and
                                 leveraged our extensive global network to deliver the best solutions to our clients.</h2>
-                            <Row>
-                                <Col sm={2}>
-                                    <h6>DECORATED FOUNDERS <br />
-                                        ANGEL INVESTORS <br />
-                                        VC & CORP. VC<br />
-                                        GLOBAL BANKERS<br />
-                                        FORMER CXOs OF<br />
-                                        PUBLICLY TRADED<br />
-                                        COMPANIES
-                                    </h6>
-                                    <hr style={{height:"1px"}} color='#b08f2e'></hr>
-                                    <h6>FINTECH<br />
-                                        INSURETECH<br />
-                                        ECOMMERCE<br />
-                                        MEDTECH<br />
-                                        DIGITAL HEALTH<br />
-                                        PROPTECH<br />
-                                        ECOMMERCE</h6>
-                                    <hr style={{height:"1px"}} color='#b08f2e'></hr>
-                                    <h6>CLOUD COMPUTING,<br />
-                                        AI, CYBERSECURITY<br />
-                                        CRM, BLOCKCHAIN,<br />
-                                        DATA & ANALYTICS</h6>
-                                </Col>
-                                <Col sm={4}>
-                                    <img 
-                                        src={Photo9}
-                                        width="800"
-                                        height="90%"
-                                    />
-                                </Col>
-                            </Row>
-                        </div>
+
+                            <Container>
+                                <Row>
+                                    <Col sm={2} style={{paddingLeft:"2%"}}>
+                                        <h6 className="LeftSlide2">DECORATED FOUNDERS 
+                                            ANGEL INVESTORS
+                                            VC & CORP. VC
+                                            GLOBAL BANKERS
+                                            FORMER CXOs OF
+                                            PUBLICLY TRADED
+                                            COMPANIES
+                                        </h6>
+                                        <hr style={{height:"1px"}} color='#b08f2e'></hr>
+                                        <h6 className="LeftSlide2">FINTECH<br />
+                                            INSURETECH
+                                            ECOMMERCE
+                                            MEDTECH
+                                            DIGITAL HEALTH
+                                            PROPTECH
+                                            ECOMMERCE</h6>
+                                        <hr style={{height:"1px"}} color='#b08f2e'></hr>
+                                        <h6 className="LeftSlide2">CLOUD COMPUTING,
+                                            AI, CYBERSECURITY
+                                            CRM, BLOCKCHAIN,
+                                            DATA & ANALYTICS</h6>
+                                    </Col>
+                                    <Col sm={8}>
+                                        <img 
+                                            id="Map"
+                                            src={Photo9}
+                                        />
+                                    </Col>
+                                </Row>
+                            </Container>
+
+                        </Container>
                     </Carousel.Caption>
                 </Carousel.Item>  
 
-                <Carousel.Item >
+                <Carousel.Item style={{flex:1}}>
                     <div style={{backgroundColor:'#275090'}}>
                             <Container>
                                 <Row>
@@ -145,30 +148,30 @@ const SplashPage = () => {
                     />
                      <Carousel.Caption id="second">
                         <div style={{backgroundColor:'#4f5e69'}}>
-                           <h2>We advice and execute aggressive mandates on behalf of our clients -- Founders and Investors --
+                           <h2 id='header3'>We advice and execute aggressive mandates on behalf of our clients -- Founders and Investors --
                                 as Co-CEO, -CFO, -CRO, -CMO using our proprietary CSuite-as-a-Service (CSaaS) framework. We
                                 measure our performance not by derisking the next investment round, but by the longer-term
                                 success of our clients.</h2>
                         </div>
 
-                        <div style={{paddingTop:'30%'}}>
+                        <div style={{paddingTop:'15%'}}>
                             <Row>
-                                <Col style={{backgroundColor:'#4f5e69'}}>SALES, STRATEGY & PARTNERSHIPS</Col>
+                                <Col style={{backgroundColor:'#4f5e69'}}><h6 className="info">SALES, STRATEGY & PARTNERSHIPS</h6></Col>
                                 <Col></Col>
                             </Row>
                             <Row>
                                 <Col></Col>
-                                <Col style={{backgroundColor:'#4f5e69'}}>OPTIMIZE COMPANY FOR PATH-TO-PROFITABILITY, CASH
-                                    MANAGEMENT STRATEGIES FINANCE, DUE-DILIGENCE</Col>
+                                <Col style={{backgroundColor:'#4f5e69'}}><h6 className="info">OPTIMIZE COMPANY FOR PATH-TO-PROFITABILITY, CASH
+                                    MANAGEMENT STRATEGIES FINANCE, DUE-DILIGENCE</h6></Col>
                             </Row>
                             <Row>
-                                <Col style={{backgroundColor:'#4f5e69'}}>SALE ENABLEMENT, LEAD GENERATION,
-                                    MAGIC QUADRANT SUCCESS</Col>
+                                <Col style={{backgroundColor:'#4f5e69'}}><h6 className="info">SALE ENABLEMENT, LEAD GENERATION,
+                                    MAGIC QUADRANT SUCCESS</h6></Col>
                                 <Col></Col>
                             </Row>
                             <Row>
                                 <Col></Col>
-                                <Col style={{backgroundColor:'#4f5e69'}}>THOUGHT-LEADERSHIP BRANDING EFFECTIVE PRODUCT MARKETING, PANEL & JOURNALIST CIRCUITS</Col>
+                                <Col style={{backgroundColor:'#4f5e69'}}><h6 className="info">THOUGHT-LEADERSHIP BRANDING EFFECTIVE PRODUCT MARKETING, PANEL & JOURNALIST CIRCUITS</h6></Col>
                             </Row>
 
                         </div>
@@ -177,6 +180,37 @@ const SplashPage = () => {
                     </Carousel.Caption> 
                 </Carousel.Item>  
             </Carousel>
+            
+             <div className="Footing" style={{backgroundColor:'#333a40', padding:10}}>
+                <Container style={{borderBottomColor:'white', borderBottomWidth:3}}>
+                    <Row style={{alignItems:'center', justifyContent:'center'}}>
+                        <img
+                            width="50"
+                            height="50"
+                            src={Logo}
+                            className='logo'
+                        />
+                    </Row>
+                    {/* Row */}
+                    <Row style={{alignItems:'center', justifyContent:'center', marginTop:"2%"}}>
+                        <text id='footer'>SevenTrainVentures</text>
+                    </Row>
+                    <hr style={{background:'black'}}></hr>
+                    <Row>
+                        <Col>
+                            <h6 className='footer'>&copy;Copyright SevenTrain Venture. All rights reserved.</h6>
+                        </Col>
+
+                        <Col>
+
+                        </Col>
+
+                        <Col>
+                            <h6 className="right">200 Park Ave South. New York, NY 10003 </h6>
+                        </Col>
+                    </Row>
+                </Container>
+            </div> 
         </div>
 
     )

@@ -5,13 +5,13 @@ import '../css/index.css'
 
 const Footer = () => {
     return(
-        <div className="Footing" style={{backgroundColor:'#333a40', padding:10}}>
-            <Container style={{borderBottomColor:'white', borderBottomWidth:3}}>
+            <Container style={{borderBottomColor:'white', borderBottomWidth:3, backgroundColor:'#333a40', padding:"3%"}}>
                 <Row style={{alignItems:'center', justifyContent:'center'}}>
                     <Image
                         width="50"
                         height="50"
                         src={LOGO}
+                        id="footerlogo"
                     />
                 </Row>
                 {/* Row */}
@@ -33,7 +33,6 @@ const Footer = () => {
                     </Col>
                 </Row>
             </Container>
-        </div>
     )
 
 };

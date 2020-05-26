@@ -43,11 +43,7 @@ ReactDOM.render(
             </Navbar.Collapse>
             </Container>
           </Navbar> */}
-       
-        <div style={{flex:1,}}>
           <App />
-        </div>
-        <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
