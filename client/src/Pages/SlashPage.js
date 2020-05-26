@@ -80,7 +80,7 @@ const SplashPage = () => {
                     />
                        <Carousel.Caption id="second">
                         <Container style={{backgroundColor:'#4f5e69'}}>
-                           <h2 id='header2'>Since inception, we have advised clients across a wide variety of industries and
+                           <h2 id='header3'>Since inception, we have advised clients across a wide variety of industries and
                                 leveraged our extensive global network to deliver the best solutions to our clients.</h2>
 
                             <Container>
@@ -148,7 +148,7 @@ const SplashPage = () => {
                     />
                      <Carousel.Caption id="third">
                         <div style={{backgroundColor:'#4f5e69'}}>
-                           <h2 id='header3'>We advice and execute aggressive mandates on behalf of our clients -- Founders and Investors --
+                           <h2 id='header2'>We advice and execute aggressive mandates on behalf of our clients -- Founders and Investors --
                                 as Co-CEO, -CFO, -CRO, -CMO using our proprietary CSuite-as-a-Service (CSaaS) framework. We
                                 measure our performance not by derisking the next investment round, but by the longer-term
                                 success of our clients.</h2>

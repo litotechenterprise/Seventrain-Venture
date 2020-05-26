@@ -80,6 +80,11 @@ img#Map {
     height:90%;
 }
 
+text#foot {
+    font-family: 'Pirulen';
+    color:rgba(255, 255, 255);
+}
+
 @media screen and (max-width: 1400px) {
     img#Map {
         width:700px;
@@ -154,10 +159,6 @@ img#Map {
     h6.info{
         font-size: 12px;
     }
-
-    text#foot {
-        font-family: 'Pirulen';
-    }
     
 }
 
@@ -175,7 +176,7 @@ img#Map {
         /* transform: translateX(); */
     }
     #third {
-        top: 2%
+        top: 15%
     }
 
     h2#header2 {
@@ -208,11 +209,6 @@ img#Map {
     } 
     h6.info{
         font-size: 12px;
-    }
-
-    text#foot {
-        font-family: 'Pirulen';
-        font-size: 10px;
     }
 }
 
@@ -261,10 +257,7 @@ img#Map {
     }
 }
 
-text#foot {
-    font-family: 'Pirulen';
-    color:rgba(255, 255, 255);
-}
+
 
 text {
     font-family:'Metropolis-Regular';
